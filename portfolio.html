@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <style>
+        body {
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+            margin: 30;
+            padding: 10;
+            background-color: #f0f6f8;
+            background-image: url("background.jpg");
+        header {
+            background-color: #33333369;
+            color: #ffffff;
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+        nav ul li a {
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            padding: 10px 15px;
+            border-radius: 5px;
+            background-color: #ddd;
+            transition: background-color 0.3s ease;
+        }
+        nav ul li a:hover {
+            background-color: #666;
+            color: #fff;
+        }
+        main {
+            padding: 20px;
+        }
+        article {
+            margin-bottom: 20px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+            transition: transform 0.3s ease;
+        }
+        article:hover {
+            transform: translateY(-5px);
+        }
+        h3 {
+            color: #333;
+        }
+        h5{
+            color: whitesmoke;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            animation: fadeInUp 0.5s ease;
+        }
+        footer nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 5px;
+        }
+
+        @keyframes fadeInUp {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>M.VANATHI</h1>
+        <h5>Contact: 9384221636    | <h5>Email-ID:vanathimohanvadivel31@gmail.com</h5>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#skills">SKILLS</a></li>
+            <li><a href="#certifications">CERTIFICATIONS</a></li>
+            <li><a href="#about">ABOUT ME</a></li>
+        </ul>
+    </nav>
+    <main>
+        <article id="home">
+            <h3 font-weight:200px;>Career goal</h3>
+            <p><b>A smart-working and quick-thinking student, I am a self-starter capable of using my technical skills for the betterment of the organization. 
+                I'm eager to learn new technologies and methodologies, always willing to innovate new things that can improve existing technology. 
+                I understand the importance of being interactive and enjoy communicating with others for the benefit of the company.</b></p>
+        </article>
+        <article id="skills">
+            <h3>Education</h3>
+            <ul>
+                <li><p>Sri Eshwar College of Engineering, Coimbatore<BR>
+                    B. E Electronics and Communication Engineering | Graduation (Batch 2022-26)<BR>
+                    SEM-1 CGPA-8.22<br>SEM-2 CGPA-7.22</p></li>
+                <li><p>Vivek Vidhyalaya Matric Higher Secondary School,Kinathukadavu
+                    SSLC | 83.6%</p></li>
+                <li><p>Vivek Vidhyalaya Matric Higher Secondary School,Kinathukadavu
+                    HSC | 84.6%</p></li>
+            </ul>
+        </article>
+        <article id="projects">
+            <h3>PROJECTS</h3>
+            <ul>
+                <li>Hybrid UAV</li>
+                <li>Retrofit Battery Charging Model Using Wind Turbines</li>
+            </ul>
+            <ul>
+                <li><p><B>1.Hybrid UAV</B>-Technological advancement on an Hybrid unmanned aerial vehicle (UAV).<BR><BR>
+                    
+                    The design has the potential to fly high with the maximum control authority and with much longer and <br>
+                slenderer which helps in giving them more lift once they are in the air without the existence of powerful<br>
+                engines.<BR><BR><B>BANNARI AMMAN INSTITUTE OF TECHNOLOGY - Project Presentation</B><BR>
+                    .</p></li>
+                     <BR><img src="HYBRID-UAV.jpg" width="700" height="400"alt="HYBRID-UAV" />
+
+                     <li><p><B>2.A Retrofit Battery Charging Model using ASWT in EV Cars</B></p></li>
+                <p> Aself-charging power bank and gives the maximum efficiency of an EV car by overcoming the major<br>
+                    drawback of driving on highways without continuous charging.<BR><BR>
+                        <B>SRI ESHWAR COLLEGE OF ENGINEERING - Project Presentation.</B></p>
+                        <BR><img src="EV-CAR.jpg" width="700" height="400"alt="EV-CAR" />
+            </ul>
+        </article>
+        <article id="about">
+            <h3>Technical skills</h3>
+            <p>Programming languages:</p>
+            <ul>
+                <li>Python</li>
+                <li>Java</li>
+                <li>C language</li>
+            </ul>
+            <p>Core Concepts - Data Structures</p>
+
+            <h3>Area of Interests</h3>
+            <ul>
+                <li>VLSI</li>
+                <li>Embedded IOT</li>
+            </ul>
+
+            <h3>Certification</h3>
+            <ul>
+                <li>Certification on Mastering in data Structures using c and c++</li>
+                <li>Certification on C language</li>
+                <li>Certification on Python language</li>
+            </ul>
+        </article>
+    </main>
+    <footer>
+        <nav>
+            <p><a href="https://leetcode.com/vanathi-m/">|LEETCODE|</a>
+            <a href="https://www.hackerrank.com/profile/vanathi_m2022ece">|HACKERRANK|</a>
+            <a href="https://www.codechef.com/users/vanathi317205">|CODECHEF|</a></p>
+        </nav>
+    </footer>
+
+    <script>
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>
+
